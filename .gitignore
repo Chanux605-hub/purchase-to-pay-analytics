@@ -1,0 +1,21 @@
+# Local environments
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw and generated data
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Secrets
+.env
+*.log
+
+# Local Power BI temporary files
+*.pbit.tmp
